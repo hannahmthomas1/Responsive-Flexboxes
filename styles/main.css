@@ -285,6 +285,10 @@ a:hover {
   flex: 1 1 90%;
 }
 
+.form-heading img {
+  flex: 0 0 10%;
+}
+
 @media (min-width: 900px) {
   .cards {
     flex-wrap: nowrap;
