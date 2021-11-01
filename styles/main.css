@@ -274,6 +274,17 @@ a:hover {
   }
 }
 
+.form-heading {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.form-heading h1 {
+  flex: 1 1 90%;
+}
+
 @media (min-width: 900px) {
   .cards {
     flex-wrap: nowrap;
