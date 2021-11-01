@@ -263,17 +263,6 @@ a:hover {
   opacity: 0;
 }
 
-@media (min-width: 600px) {
-  .cards {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .cards .card {
-    flex: 1 1 45%;
-  }
-}
-
 .form-heading {
   display: flex;
   flex-direction: row;
@@ -287,6 +276,17 @@ a:hover {
 
 .form-heading img {
   flex: 0 0 10%;
+}
+
+@media (min-width: 600px) {
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cards .card {
+    flex: 1 1 45%;
+  }
 }
 
 @media (min-width: 900px) {
@@ -308,8 +308,4 @@ a:hover {
   }
 }
 
-/* to do: 
-make buttons pretty,
- play with images (change the flex percentage maybe under the media query from what is above)
- make text on cards a flexbox to center and make pretty
-  */
+
